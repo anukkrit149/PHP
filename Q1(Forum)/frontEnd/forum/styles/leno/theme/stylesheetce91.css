@@ -1,0 +1,21 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			leno (the default phpBB 3.2.x style)
+	Based on style:
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+
+@import url("normalizef3ee.css?v=3.2");
+@import url("basef3ee.css?v=3.2");
+@import url("utilitiesf3ee.css?v=3.2");
+@import url("commonf3ee.css?v=3.2");
+@import url("linksf3ee.css?v=3.2");
+@import url("contentf3ee.css?v=3.2");
+@import url("buttonsf3ee.css?v=3.2");
+@import url("cpf3ee.css?v=3.2");
+@import url("formsf3ee.css?v=3.2");
+@import url("iconsf3ee.css?v=3.2");
+@import url("coloursf3ee.css?v=3.2");
+@import url("responsivef3ee.css?v=3.2");

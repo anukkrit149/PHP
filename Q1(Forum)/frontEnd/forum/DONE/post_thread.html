@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Create Thread</title>
+
+
+    <link rel="alternate" type="application/atom+xml" title="" href="../app.php/feed">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="../app.php/feed/topics">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - Your first forum" href="../app.php/feed/forum/2">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - Welcome to phpBB3" href="../app.php/feed/topic/1">
+    <link rel="canonical" href="#">
+
+
+    <link rel="icon" href="../ext/beutheme/customizer/files/favicon.png" />
+
+
+
+    <link href="../assets/css/font-awesome.mince91.css?assets_version=7" rel="stylesheet">
+    <link href="../styles/leno/theme/stylesheetce91.css?assets_version=7" rel="stylesheet">
+    <link href="../styles/leno/theme/en/stylesheetce91.css?assets_version=7" rel="stylesheet">
+
+
+
+
+    <!--[if lte IE 9]>
+    <link href="./styles/leno/theme/tweaks.css?assets_version=7" rel="stylesheet">
+    <![endif]-->
+    <link href="../styles/leno/theme/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/leno/theme/themestyle.css" rel="stylesheet" type="text/css" />
+
+    <link href="../styles/leno/theme/font.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/leno/theme/css/menu-style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../../cdn.materialdesignicons.com/2.4.85/css/materialdesignicons.min.css">
+
+
+    <link href="../styles/leno/theme/custom-themes.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/leno/theme/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/leno/theme/custom.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/leno/theme/themify-icons.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../styles/leno/theme/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../styles/leno/theme/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../styles/leno/theme/js/custom.js"></script>
+
+
+    <script type="text/javascript" src="../styles/leno/theme/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+        $(window).load(function() {
+            $("#loading").fadeOut(500);
+        })
+    </script>
+
+
+
+    <script>jQuery(document).ready(function($) {
+        /** ******************************
+         * Simple WYSIWYG
+         ****************************** **/
+        $('#editControls a').click(function(e) {
+            e.preventDefault();
+            switch($(this).data('role')) {
+                case 'h1':
+                case 'h2':
+                case 'h3':
+                case 'p':
+                    document.execCommand('formatBlock', false, $(this).data('role'));
+                    break;
+                default:
+                    document.execCommand($(this).data('role'), false, null);
+                    break;
+            }
+
+            var textval = $("#editor").html();
+            $("#editorCopy").val(textval);
+        });
+
+        $("#editor").keyup(function() {
+            var value = $(this).html();
+            $("#editorCopy").val(value);
+        }).keyup();
+
+        $('#checkIt').click(function(e) {
+            e.preventDefault();
+            alert($("#editorCopy").val());
+        });
+    });</script>
+
+
+
+    <link href="../ext/bb3mobi/lastpostavatar/styles/all/theme/lastpostavatarce91.css?assets_version=7" rel="stylesheet" type="text/css" media="screen" />
+
+
+
+
+
+
+
+
+    <!--#3179ff-->
+
+
+    <style type="text/css" >
+
+    </style>
+
+
+
+
+
+
+    <script>
+
+        function Funsearcha(){
+            $('.search-theme').addClass('show-search');
+            $('.body-search').addClass('show-body-search');
+
+        }
+        function Funsearchb(){
+            $('.search-theme').removeClass('show-search');
+            $('.body-search').removeClass('show-body-search');
+            $('.noti').removeClass('show-noti');
+        }
+        function Funsearchc(){
+            $('.noti').addClass('show-noti');
+            $('.body-search').addClass('show-body-search');
+
+        }
+    </script>
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+            <div class="object"></div>
+        </div>
+    </div>
+
+</div>
+<div class="body-search" onclick="Funsearchb()"></div>
+
+<div id="body-theme" class="body-theme page-wrapper chiller-theme toggled">
+    <a id="top" class="top-anchor" accesskey="t"></a>
+
+
+    <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+            <div id="toggle-sidebar">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="sidebar-brand">
+                <a href="index.php" title="Board index">
+                    <img src="../ext/beutheme/customizer/files/olcademy.png" class="board-index">
+                    <h1 class="logo-text">EDUCATION Company</h1>
+                </a>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li class="header-menu">
+                        <span>Quick links</span>
+                    </li>
+                    <li class="sidebar-dropdown">
+                        <a href="#">
+                            <i class="mdi mdi-comment-text"></i>
+                            <span>Threads</span>
+
+                        </a>
+                        <div class="sidebar-submenu">
+                            <ul>
+
+                                <li class="separator"></li>
+                                <li>
+                                    <a href="../search33a7.html?search_id=unanswered" role="menuitem">
+                                        <span>Cbd</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <a href="../memberlist4bfd.html?mode=team" role="menuitem">
+                            <i class="mdi mdi-account-group"></i><span>jhbjhb</span>
+                        </a>
+                    </li>
+
+
+
+                    <li>
+                        <a href="#"  role="menuitem">
+                            <i class="mdi mdi-flash-auto"></i><span>custom </span>
+                        </a>
+                    </li>
+                    <li>
+
+
+
+                </ul>
+            </div>
+            <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+
+    </nav>
+
+
+
+    <div class="page-content">
+        <div id="header" class="menu-style1">
+            <div class="header-style">
+
+                <div class="top-header">
+                    <img src="../ext/beutheme/customizer/files/olcademy.png" width="85px" height="auto" class="img-olca">
+                    <div class="right-header">
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <a id="start_here" class="anchor"></a>
+    <div id="page-body" class="page-body" role="main">
+        <div class="container">
+            <div class="title">
+                <h3>Create thread Here</h3>
+            </div>
+
+            <div id="editparent">
+                <div id="editControls">
+                    <div class="btn-group">
+                        <a class="btn btn-xs btn-default" data-role="undo" href="#" title="Undo"><i class="fa fa-undo"></i></a>
+                        <a class="btn btn-xs btn-default" data-role="redo" href="#" title="Redo"><i class="fa fa-repeat"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-xs btn-default" data-role="bold" href="#" title="Bold"><i class="fa fa-bold"></i></a>
+                        <a class="btn btn-xs btn-default" data-role="italic" href="#" title="Italic"><i class="fa fa-italic"></i></a>
+                        <a class="btn btn-xs btn-default" data-role="underline" href="#" title="Underline"><i class="fa fa-underline"></i></a>
+                        <a class="btn btn-xs btn-default" data-role="strikeThrough" href="#" title="Strikethrough"><i class="fa fa-strikethrough"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-xs btn-default" data-role="indent" href="#" title="Blockquote"><i class="fa fa-indent"></i></a>
+                        <a class="btn btn-xs btn-default" data-role="insertUnorderedList" href="#" title="Unordered List"><i class="fa fa-list-ul"></i></a>
+                        <a class="btn btn-xs btn-default" data-role="insertOrderedList" href="#" title="Ordered List"><i class="fa fa-list-ol"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <a class="btn btn-xs btn-default" data-role="h1" href="#" title="Heading 1"><i class="fa fa-header"></i><sup>1</sup></a>
+                        <a class="btn btn-xs btn-default" data-role="h2" href="#" title="Heading 2"><i class="fa fa-header"></i><sup>2</sup></a>
+                        <a class="btn btn-xs btn-default" data-role="h3" href="#" title="Heading 3"><i class="fa fa-header"></i><sup>3</sup></a>
+                        <a class="btn btn-xs btn-default" data-role="p" href="#" title="Paragraph"><i class="fa fa-paragraph"></i></a>
+                    </div>
+                </div>
+                <div id="editor" contenteditable></div>
+                <form method="post" action="../../../forum/create_thread.php" >
+                    <label about="thread_name">Thread Name</label><br>
+                    <textarea name="thread_name"></textarea><br>
+                    <label about="thread_name">Thread </label><br>
+                    <textarea name="thread" id="editorCopy" required="required" style="height: 100px;width: 1200px"></textarea>
+                    <br>
+                    <input type="button" name="reply" value="submit">
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
